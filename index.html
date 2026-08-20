@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       EDIT ME: Page title (shows in the browser tab & search results)
+       ============================================================ -->
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="A short one-line description of who you are and what you do." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for keyboard users -->
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <!-- EDIT ME: your initials or a short mark -->
+    <a class="mark" href="#top" aria-label="Home">YN</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="top">
+      <p class="eyebrow"><span class="dot"></span>Available for new work</p>
+
+      <!-- EDIT ME: your name and role -->
+      <h1 class="hero-title">
+        Your Name
+      </h1>
+      <p class="hero-role">Designer &amp; developer building thoughtful things for the web.</p>
+
+      <p class="hero-intro">
+        Replace this with a couple of honest sentences about what you do and
+        what you care about. Keep it short — the goal is to make a stranger
+        want to read the next section.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#work">See selected work</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ===================== WORK ===================== -->
+    <section class="section" id="work">
+      <div class="section-head">
+        <span class="label">01 — Selected work</span>
+        <h2>Things I've made</h2>
+      </div>
+
+      <ul class="work-list">
+        <!-- EDIT ME: duplicate a <li> block to add more projects -->
+        <li class="work-item">
+          <div class="work-index">01</div>
+          <div class="work-body">
+            <h3>Project One</h3>
+            <p>One sentence on what it is and the part you're proud of.</p>
+          </div>
+          <div class="work-meta">
+            <span>2025</span>
+            <a href="#" aria-label="Open Project One">↗</a>
+          </div>
+        </li>
+
+        <li class="work-item">
+          <div class="work-index">02</div>
+          <div class="work-body">
+            <h3>Project Two</h3>
+            <p>One sentence on what it is and the part you're proud of.</p>
+          </div>
+          <div class="work-meta">
+            <span>2024</span>
+            <a href="#" aria-label="Open Project Two">↗</a>
+          </div>
+        </li>
+
+        <li class="work-item">
+          <div class="work-index">03</div>
+          <div class="work-body">
+            <h3>Project Three</h3>
+            <p>One sentence on what it is and the part you're proud of.</p>
+          </div>
+          <div class="work-meta">
+            <span>2024</span>
+            <a href="#" aria-label="Open Project Three">↗</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <span class="label">02 — About</span>
+        <h2>A little more</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            Write two short paragraphs here. The first can be your story — how
+            you got here and what you focus on now.
+          </p>
+          <p>
+            The second can be the human part: where you're based, what you're
+            currently curious about, what you do when you're not working.
+          </p>
+        </div>
+        <aside class="about-facts">
+          <div class="fact">
+            <span class="fact-key">Based in</span>
+            <span class="fact-val">Your City</span>
+          </div>
+          <div class="fact">
+            <span class="fact-key">Focus</span>
+            <span class="fact-val">What you do</span>
+          </div>
+          <div class="fact">
+            <span class="fact-key">Tools</span>
+            <span class="fact-val">Your stack</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <span class="label">03 — Contact</span>
+        <h2>Let's talk</h2>
+      </div>
+      <p class="contact-lead">
+        The best way to reach me is email. I read everything and try to reply
+        within a day or two.
+      </p>
+      <!-- EDIT ME: your real email and links -->
+      <a class="contact-email" href="mailto:you@example.com">you@example.com</a>
+      <div class="social">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter / X</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <span>© <span id="year"></span> Your Name</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
